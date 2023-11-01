@@ -3,10 +3,9 @@
     . Acordarse de los cambios de cursor, por ej: cuando paso en un "aceptar" o "enviar" hacer que
         el cursor sea una mano "agarrando".
     . Ver de que forma se puede ajustar automaticamente el tkinter a la resolucion de tu pantalla, sea cual sea.
-    .
-
+    . Ver la forma de centrar todo en el medio, no arriba.
 
 -BackEnd
     . Buscar librerias de encriptacion (ej, Fernet).
         .. Encriptar contraseña maestra y contraseñas de los datos.
-    . 
+    . Ver de usar objetos y .json para guardar los datos.
