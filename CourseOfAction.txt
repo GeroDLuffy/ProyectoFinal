@@ -4,6 +4,8 @@
         el cursor sea una mano "agarrando".
     . Ver de que forma se puede ajustar automaticamente el tkinter a la resolucion de tu pantalla, sea cual sea.
     . Ver la forma de centrar todo en el medio, no arriba.
+    . Con frame.config(show='*') le podes cambiar para que muestre * en vez de los caracteres.
+
 
 -BackEnd
     . Buscar librerias de encriptacion (ej, Fernet).

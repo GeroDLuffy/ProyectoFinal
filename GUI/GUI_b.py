@@ -1,31 +1,28 @@
 from tkinter import *
-from ..A_scripts import master_ppsw as p2
-# Window
 ventana = Tk()
 
-ventana.title('Password Manager')
-ventana.iconbitmap('Imagenes\llaves.ico')
-ventana.geometry('600x600')
+screen_width = ventana.winfo_screenwidth()
+screen_height = ventana.winfo_screenheight()
 
-# Labels
-label = Label(ventana, text='Ingrese la contraseña maestra', bg='white')
-label.config(height=1, width=25)
-label.pack()
+# Frame Master Password
+frame_mp = Frame(ventana, bg='blue', width=screen_width, height=screen_height)
+frame_mp.pack(fill='both')
 
-# Entry
-Entry = Entry(ventana, text='Hola Mundo', bg='white')
-Entry.pack()
-def get_text():
-    text = Entry.get()
-    p2.master_ppsw(text)
+label_mp = Label(frame_mp, text='Ingrese contraseña maestra: ')
+label_mp.grid(row=0, column=0, sticky='n', padx=5)
 
-# Buttons
-button = Button(ventana, text = 'Enviar', command='ejemplo')
-button.pack()
+
+entry_mp = Entry(frame_mp, bg='white')
+entry_mp.grid(row=0, column=1, sticky='n', padx=5)
+entry_mp.config(show='*', fg='black', justify='center')
 
 
 
 
+# # Frame Menu
+# frame_menu = Frame()
 
+# # Frame Datos
+# frame_data = Frame()
 
 ventana.mainloop()
