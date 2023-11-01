@@ -5,7 +5,9 @@
     . Ver de que forma se puede ajustar automaticamente el tkinter a la resolucion de tu pantalla, sea cual sea.
     . Ver la forma de centrar todo en el medio, no arriba.
     . Con frame.config(show='*') le podes cambiar para que muestre * en vez de los caracteres.
-
+    . Boton de salir en todos los frames, especialmente en el primero. 
+        ..(button_mp = Button(frame_mp, text='Salir', command=ventana.destroy).grid(row=1, column=1))
+    .
 
 -BackEnd
     . Buscar librerias de encriptacion (ej, Fernet).
