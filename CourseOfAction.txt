@@ -1,0 +1,12 @@
+-GUI
+    . Usar frames. Contraseña maestra(f1)-> Menu (f2) -> Datos (f3)
+    . Acordarse de los cambios de cursor, por ej: cuando paso en un "aceptar" o "enviar" hacer que
+        el cursor sea una mano "agarrando".
+    . Ver de que forma se puede ajustar automaticamente el tkinter a la resolucion de tu pantalla, sea cual sea.
+    .
+
+
+-BackEnd
+    . Buscar librerias de encriptacion (ej, Fernet).
+        .. Encriptar contraseña maestra y contraseñas de los datos.
+    . 
